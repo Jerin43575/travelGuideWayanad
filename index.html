@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayanad Travel Guide</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(to right, #f0f9f4, #e0f7fa);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #2d6a4f;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+        .place {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .place:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .place img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .place:hover img {
+            transform: scale(1.05);
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #2d6a4f;
+            margin-top: 0;
+        }
+        .content p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>Discover Wayanad</header>
+    <section>
+        <div class="place">
+            <img src="https://thewoodsresorts.com/uploads/media/edakkal-caves-wayanad61c470581708b.jpg" alt="Edakkal Caves">
+            <div class="content">
+                <h2>Edakkal Caves</h2>
+                <p>Prehistoric carvings and breathtaking views of Wayanad’s lush green hills.</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="https://thewoodsresorts.com/uploads/media/chembra-peak-in-wayanad6287293d75ca6.jpg" alt="Chembra Peak">
+            <div class="content">
+                <h2>Chembra Peak</h2>
+                <p>The highest peak in Wayanad, featuring a heart-shaped lake and scenic trekking trails.</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvyxQCmWagIGS52sQ5KxmnOJ8Ur4CT7SapLw&s" alt="Soochipara Waterfalls">
+            <div class="content">
+                <h2>Soochipara Waterfalls</h2>
+                <p>A stunning three-tiered waterfall surrounded by dense forests, ideal for adventure seekers.</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8MeaKP-JjH-mywiJluXgrL_kBflw4q5J62w&s" alt="Banasura Sagar Dam">
+            <div class="content">
+                <h2>Banasura Sagar Dam</h2>
+                <p>The largest earthen dam in India, offering breathtaking views and boating opportunities.</p>
+            </div>
+        </div>
+        <div class="place">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStcZQdOugcOaQKh4kHPRFSBCtxe55iRtxlgQ&s" alt="Kuruva Island">
+            <div class="content">
+                <h2>Kuruva Island</h2>
+                <p>A serene island on the Kabini River, rich in biodiversity and perfect for nature lovers.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
